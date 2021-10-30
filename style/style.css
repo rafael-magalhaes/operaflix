@@ -1,0 +1,102 @@
+:root{
+    --azul: #0c4c8a;
+    --white: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--azul);
+    font-family: 'Abril Fatface', cursive;
+    color: gray;
+
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.crown{
+    height: 2em;
+    width: 2.3em;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--white);
+    margin-right: 4%;
+}
+header nav a:hover{
+    color: lightgray;
+}
+.mainOpera{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url("../resources/zauberflote/zauberflote2.jpg");
+    
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.mainOpera .description{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.mainOpera .titulo{
+    font-size: 300%;
+    margin-top: 7%;
+}
+.button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    margin-right: 3%;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.button i{
+    margin-right: 5px;
+}
+.button .wInfo{
+    text-decoration: none;
+    color: var(--white);
+}
+.button .wInfo:hover{
+        background-color: white;
+        color: black;
+}
+.container{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.mainOpera .container{
+    width: 70%;
+}
+.boxOpera{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carouselOpera{
+    margin-top: 2%;
+}
